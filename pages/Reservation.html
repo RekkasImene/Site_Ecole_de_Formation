@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Reservaion</title>
+</head>
+<body>
+
+<form action="../Exo_2.html" method="post" enctype="multipart/form-data" class="formulaire">
+						<legend>
+							Informations Personnelles :
+						</legend>
+							<p>
+								Nom* :
+							</p>
+							<input required="required" type="text" />
+							<p>
+								Prénom* :
+							</p>
+							<input required="required" type="text" />
+							<p>
+								Date de Naissance* :
+							</p>
+							<input required="required" type="date" />
+
+							<p>
+							<legend>
+							Coordonées :
+						</legend>
+							<p>
+								Adresse Postale* :
+							</p>
+							<input required="required" type="text" />
+							<p>
+								Addresse Mail* :
+							</p>
+							<input required="required" type="email" />
+							<p>
+								Répétez addresse Mail* :
+							</p>
+							<input required="required" type="email" />
+
+
+							<p>
+								N° de Téléphone* :
+							</p>
+							<input required="required" type="tel" />
+							<p>
+								Mot de passe* :
+							</p>
+							<input required="required" type="password" />
+							<p>
+								Répétez mot de passe* :
+							</p>
+							<input required="required" type="password" />
+							<br/>
+							<br/>
+						
+						<legend>
+								Produit désirés :
+						</legend>
+						<input name="Prod" value="VS" type="checkbox" /> Plaquettes de freins<br/>
+						<input name="Prod" value="BC" type="checkbox" /> Rétroviseurs <br/>
+						<input name="Prod" value="GC" type="checkbox" /> Bougies<br/>
+						<input name="Prod" value="GBC" type="checkbox" />Essuye glace<br/>
+						<input name="Prod" value="PC" type="checkbox" />Filtre<br/>
+						<input name="Prod" value="PC" type="checkbox" />Guidons<br/>
+						<input name="Prod" value="PC" type="checkbox" />Attache remorques<br/>
+					    <br/>
+							<legend>
+								Paiement :
+						</legend>		
+							<select name="paiement" size="1">
+								<option>Carte de crédit</option>
+								<option>Transfert bancaire</option>
+								<option>Mandat postale</option>
+							</select>
+
+							<p>
+								Preuve de paiement:
+							</p>
+							<input type="file" name="preuve"  accept="application/pdf"/>
+							<br/>
+							<br/>
+							<legend>
+								Demandes spéciales :
+							</legend>						
+							<textarea name="demandes" rows="10" placeholder="introduisez vos demandes" ></textarea>
+							<br/>
+							<br/>
+
+							
+							<br/>
+					<input id="inscrire" type="submit" title="Envoyer" />
+				</form>
+</form>
+
+</body>
+</html>
